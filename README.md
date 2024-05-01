@@ -18,3 +18,7 @@ git clone --recurse-submodules https://github.com/t-34400/MetaQuestScreenShotLoa
 6. From the menu bar, select `File` > `Build Settings`, then choose Android in the  window and press the `Switch Platform` button.
 7. From the menu bar, select `Edit` > `Project Settings`, then open `Meta XR` in the window and select the `Fix All` and `Apply All` buttons if available.
 8. Build the project.
+
+## How to Use the Scene
+1. If the app does not have storage access permission, the `Request Permission` button will be displayed. Press this button to prompt a dialog asking for permission.
+2. Once storage access permission is granted, the `Request Permission` button will disappear and the `Load ScreenShot` button will appear. Press this button to read the latest screenshot and set it to the Raw Image.
